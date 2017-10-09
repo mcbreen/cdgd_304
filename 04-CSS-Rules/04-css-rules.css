@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+}
+h1 {
+    font-family: Trebuchet MS;
+    font-size: 40px;
+    color: slategray;
+}
+h2 {
+    font-family: Trebuchet MS;
+    font-size: 35px;
+    color: slategray;
+}
+h3 {
+    font-family: Trebuchet MS;
+    font-size: 25px;
+    color: darkseagreen;
+}
+p { font-family: Palatino Linotype;
+    font-size: 15px;
+    color: black;
+}
+
+li {
+    font-family: Palatino Linotype;
+    font-size: 15px;
+    color: darkslategray;
+}
+
+a:link { 
+    font-family: Palatino Linotype;
+    font-size: 15px;
+    color:cadetblue;
+}
+
+a:visited {
+    color: rebeccapurple;
+}
+
+a:hover {
+    color: powderblue;
+}
+
