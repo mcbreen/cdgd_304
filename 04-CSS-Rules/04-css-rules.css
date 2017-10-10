@@ -1,43 +1,84 @@
 body {
-    background-color: white;
+    background-image: url(sand.jpg);
 }
 h1 {
-    font-family: Trebuchet MS;
-    font-size: 40px;
-    color: slategray;
+    font-size: 36px;
+    color: lightblue;
+    font-family: Arial Black;
 }
 h2 {
-    font-family: Trebuchet MS;
-    font-size: 35px;
-    color: slategray;
+    font-size: 18px;
+    color: #93C178;
+    text-transform: uppercase;
+    font-family: Arial Black;
 }
 h3 {
-    font-family: Trebuchet MS;
-    font-size: 25px;
-    color: darkseagreen;
+    font-size: 14px;
+    color: #93C178;
+    text-transform: uppercase;
+    font-family: Arial Black;
+
 }
-p { font-family: Palatino Linotype;
-    font-size: 15px;
-    color: black;
+p { 
+    font-family: Courier New;
+    font-size: 14px;
+    color: green;
+    width: 250px;
+    border: 2px;
+    padding: 10px;
+}
+div.center {
+    
+    text-transform: uppercase;
 }
 
 li {
-    font-family: Palatino Linotype;
-    font-size: 15px;
-    color: darkslategray;
+    font-family: Courier New;
+    font-size: 14px;
+    color: green;
 }
 
 a:link { 
-    font-family: Palatino Linotype;
-    font-size: 15px;
-    color:cadetblue;
+    font-family: Courier New;
+    font-size: 14px;
+    color: darkseagreen;
+    text-decoration: none;
 }
 
 a:visited {
-    color: rebeccapurple;
+    color: mediumpurple;
 }
 
 a:hover {
     color: powderblue;
 }
 
+table {
+    width: 800px;
+}
+th, td {
+    padding: 7px 10px 10px 10px;
+}
+th {
+    font-family: Courier New;
+    color: #465C8B;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    border-bottom: 2px solid;
+    text-align: left;
+    border-color: #465C8B; 
+}
+td {
+    font-family: Courier New;
+    font-size: 14px;
+    color: #465C8B;
+}
+
+ul {
+    list-style-image: url(pineapple.gif);
+}
+
+il {
+    list-style-image: url(pineapple.gif);
+}
